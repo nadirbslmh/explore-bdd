@@ -1,3 +1,4 @@
+@Register
 Feature: Register
   As a user
   I have be able to register
