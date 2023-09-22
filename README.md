@@ -7,3 +7,15 @@ BDD Implementation example using Serenity and Cucumber framework.
 ```shell
 mvn clean verify
 ```
+
+## Additional Notes
+1. To run the specific test based on tags. Use this command
+
+```shell
+mvn clean verify -Dtags="@tag-name"
+```
+
+In this example, the test with tags equals `@Login-Success` is executed.
+```shell
+mvn clean verify -Dtags="@Login-Success"
+```
